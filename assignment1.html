@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<!--<html>-->
+<html lang="en">
+<!--<head>-->
+<head>
+<!--<meta>-->    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+ <!--<title>-->       
+    <title>ASSIGNMENT1</title>
+</head>
+<body>
+    <!--<a>-->
+    <a href="https://www.google.com">google search</a>
+    <a download=""></a>
+    <a hreflang=""></a>
+    <a media=""></a>
+    <a rel=""></a>
+    <a target="_blank"></a>
+    <a type="image/jpeg"></a>
+
+    <!--<abbr>-->
+    <p> <abbr title="Hyper Text Markup Language">HTML</abbr> is the publishing Language of World Wide Web. </p> 
+    <abbr title="Read Only Memory">ROM</abbr> is a volatile memory  
+
+    <!--<address>-->
+    <footer>
+        <address>
+            <p>
+                <a href="https://www.w3.org/Consortium/contact-mit">MIT
+
+                </a>
+            </p>
+        </address>
+    </footer>  
+
+    <!--<article>--<main>-->
+     <main>
+        <article>
+        <h1> Introduction to HTML</h1>
+        <p> HTML is a markup Language </p>
+        </article>
+     </main>   
+
+     <!--<aside>-->
+     <aside>
+        <h1>Apollo 13 Facts</h1>
+        <p>Apollo 13 was the seventh manned mission in the American apollo space program and the third intended to land on the moon.</p>
+     </aside>  
+
+     <!--<audio>--<source>-->
+     <audio controls autoplay loop>
+        <source src="mixkit-forever-love-38.mp3"/>
+     </audio>  
+     
+     <!--<b>-->
+     <p><b>Hello</b> my name is <b>Rupa</b></p>
+     
+     <!--<bdi>-->
+        <p dir="ltr"> This arabic word
+        <bdi> ARABIC_PLACEHOLDER</bdi> is automatically displayed left-to-right. </p>
+        <p dir="rtl"> This arabic word
+            <bdi> ARABIC_PLACEHOLDER</bdi> is automatically displayed right-to-left </p>
+        
+     <!--<bdo>-->
+        <p>The sequence "1-2-3-4-5" was reversed as: <bdo dir="rtl">1-2-3-4-5</bdo></p>
+
+     <!--<blockquote>-->
+        <blockquote>
+            <p> This is an example of a long quotation </p>
+        </blockquote>   
+
+     <!--<body>--<link>-->
+        <body>
+            <p> Hello World</p>
+            <style>
+            body {
+                background-color: antiquewhite;
+            }
+            </style>
+        </body> 
+        
+     <!--<br>-->
+     <p>This paragraph contains <br>a line break</p>
+     <p>This paragraph contains <br>multiple <br>line breaks</p> 
+     
+     <!--<button>--<button>-->
+        <form action="action.php" method="post">
+            <p>
+                first name:<input type="text" name="first name">
+                <button type="submit">submit</button>
+                <button type="reset">reset</button>
+            </p>
+        </form>
+      
+     <!--<canvas>-->
+        <canvas id="myCanvas" width="300" height="200" style="border: 1px red">sorry</canvas>
+        <script type="text/javascript">
+            window.onload = function(){
+               var canvas = document.getElementById("myCanvas");
+               var context = canvas.getContext("2d");
+               context.moveTo(50, 150);
+               context.lineTo(250, 50);
+               context.stroke();
+            };
+        </script>  
+
+     <!--<caption>--<col>--<colgroup>--<table>--<td>--<tbody>-->
+        <table>
+            <style>
+            table,th,td {
+                border: 1px solid black;
+            }
+            </style>
+            <caption>User Details</caption>
+            <thead>
+                <tr>
+                    <th>No.</th>
+                    <th>Name</th>
+                    <th>Email</th>
+                </tr>
+            </thead>   
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Nikki</td>
+                    <td>nikki@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Sam</td>
+                    <td>sam@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Rupa</td>
+                    <td>rupa@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Leela</td>
+                    <td>leela@gmail.com</td>
+                </tr>
+                <colgroup>
+                   <col span="2" style="background-color: blueviolet;" width="100px" ></col span>
+                </colgroup>
+            </tbody>
+        </table>
+
+      <!--<cite>-->
+        <p>My Favourite movie is <cite>star wars</cite></p> 
+        <p>My another Favourite movie is <cite>Harry potter</cite></p>   
+
+      <!--<code-->
+        <p> Regular text <code> Computer Code </code> Regular text </p>
+
+      <!--<data>-->
+        <p>New Products</p>
+        <ul>
+            <li><data value="1">Green Tea</data> </li>
+            <li><data value="2">Tomato Ketchup</data> </li>
+            <li><data value="3">coffee</data> </li>
+        </ul>
+
+      <!--<datalist>-->
+        <p>Enter your Favourite browser name:</p>
+        <input type="text" list="browsers" >
+        <datalist id="browsers" >
+            <option value="Firefox"></option>
+            <option value="Crome"></option>
+            <option value="Opera"></option>
+            <option value="Safari"></option>
+        </datalist>  
+
+      <!--<dd>--<dl>--<dt>-->
+        <dl>
+            <dt>term1</dt>
+            <dd>definition1</dd>
+            <dt>term2</dt>
+            <dd>definition2</dd>
+        </dl> 
+        
+      <!--<del>--<ins>-->
+        <p>HTML is a Hyper Text <del>marking</del> <ins>Markup</ins> Language</p> 
+        
+      <!--<details>--<summary>-->
+        <details>
+            <summary>What is HTML?</summary>
+            <p>It is a Markup Language</p>
+        </details> 
+
+     <!--<dfn>-->
+        <p>The <dfn> HTML </dfn>is the publishing Language of the World Wide Web</p>
+
+      <!--<dialog>-->
+        <dialog open>
+            <p>Are you sure you want to remove this item?</p>
+            <button type="button">Yes</button>
+            <button type="button">No</button>
+         </dialog><br><br>
+         <br><br>
+         <br><br> 
+        
+      <!--div>-->
+      <div class="welcome-box" align="center" >
+        <h1>Welcome</h1>
+        <p>Hi,Welcome to our Website</p>
+      </div>
+
+      <!--<em>-->
+        <p>This is an <em>important point</em> to consider</p> 
+        <p>This is one more <em>important point</em> to consider</p>   
+
+     <!--<embed>-->
+        <embed src="IMG/Image1.jpg" width="300px" height="200px">  
+
+     <!--<fieldset>-->
+            <form>
+               <fieldset>
+                <legend>Gender</legend>
+                <input type="radio" name="gender" value="male">
+                <label>Male</label>
+                <input type="radio" name="gender" value="female">
+                <label>female</label>
+               </fieldset>
+            </form>       
+             
+     <!--<figcaption>--<figure>-->
+            <figure>
+                <img src="IMG/Image2.jpg" height="200" width="200" alt="images">
+                <figcaption>Lord Vinayaka</figcaption>
+            </figure>
+
+     <!--<footer>-->
+        <footer>
+            <nav>
+                <p><a href="#">Terms of Use</a> | <a href="#">Privacy Policy</a></p>
+            </nav>
+            <p> Copyright</p>
+        </footer>  
+        
+     <!--<header>--<h1>to<h6>--<hgroup>-->
+        <header>
+            <hgroup>
+             <h1>HTML</h1>
+             <h2>HTML</h2>
+             <h3>HTML</h3>
+             <h4>HTML</h4>
+             <h5>HTML</h5>
+             <h6>HTML</h6> 
+             <p>Hyper Text Markup Language</p>
+           </hgroup>
+     </header>
+
+     <!--<hr>-->
+         <p>This is the first line</p>
+         <hr>
+         <p>This is the second line</p>
+
+     <!--<i>-->
+         <p> Hello everyone. <i> How are you? </i></p>    
+
+     <!--<iframe>-->
+         <iframe src="Hello.html" width="100" height="100" scrolling="auto"
+         style="border: 1px solid red;">
+         </iframe><br><br>   
+
+     <!--<img>-->
+         <img src="IMG/logo.gif" height="200" width="200" alt="Music Hub">
+
+     <!--<input>-->
+         <form action="welcome.php" method="post">
+            <p>First name:
+            <input type="text" name="first-name">
+            <input type="submit">
+            <input type="reset">
+            </p>
+         </form> 
+         
+     <!--<kbd>-->
+         <p>Please, input "<kbd>Yes</kbd>" or "<kbd>No</kbd>"</p> 
+         
+     <!--<keygen>-->
+         <form action="welcome.php" method="post">
+            <label>Username: <input type="text" name="Username"></label>
+            <label>Encryption:<keygen name="key" keytype="RSA" ></label>
+               <input type="submit" value="Submit">
+            </form>
+
+     <!--<li>--<ul>-->
+        <ul type="square">
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+        </ul>   
+        
+     <!--<mark>-->
+        <p><mark>HTML</mark> is a Hyper Text Markup Language </p> 
+        
+     <!--<meter>-->
+        <p>Disk Usage: <meter value="0.8">80%</meter></p>
+        <p>Total Score: <meter value="6" min="0" max="10">6 out of 10</meter></p> 
+        <p>Pollution Level: <meter low="60" high="80" max="100" value="85">Very High</meter></p>
+
+     <!--<nav>-->
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">contact</a></li>
+            </ul>
+        </nav>
+
+     <!--<noscript>--<script>-->
+        <script>
+            document.write("Welcome to JavaTpoint")
+        </script>   
+        <noscript>
+            Sorry!Your browser does not support JavaScript!
+        </noscript><br><br>
+     
+     <!--<object>-->   
+         <object data="IMG/Image1.jpg" width="200" height="200"></object>
+         <object data="Hello.html">
+         </object>  
+
+     <!--<ol>-->
+        <ol reversed>
+            <li>Item1</li>
+            <li>Item2</li>
+            <li>Item3</li>
+        </ol>    
+
+     <!--<optgroup>-->
+        <p>Select your Favourite</p>
+        <select>
+           <optgroup label="Chocolates">
+             <option value="5Star">5Star</option>
+             <option value="Dairymilk">Dairymilk</option>
+             <option value="Kit-Kat">Kit-Kat</option>
+           </optgroup>
+           <optgroup label="Biscuits">
+            <option value="Good day">Good day</option>
+            <option value="Milano">Milano</option>
+            <option value="Hide and Seek">Hide and Seek</option>
+          </optgroup> 
+        </select><br><br> 
+
+     <!--<option>--<select>-->
+        <p> Select your Favourite company</p>
+        <select>
+            <option value="dell">Dell</option>
+            <option value="lenovo">Lenovo</option>
+            <option value="hp">Hp</option>
+        </select><br><br>
+        <br><br>  
+
+     <!--<output>-->
+        <form oninput="result.value=parseInt(a.value)+parseInt(b.value)">
+            <input type="range" id="a" value="50">+
+            <input type="number" id="b" value="100">=
+            <output name="result" for="a b"></output>
+        </form><br><br>  
+        <form oninput="result.value=parseInt(a.value)+parseInt(b.value)"> 
+
+        <label>Enter First Value</label>
+            <input type="number" name="a" value=""><br><br>
+        <label>Enter First Value</label>
+            <input type="number" name="b" value=""><br><br>
+            Output is:<output name="result"></output>
+        </form>
+
+     <!--<p>-->   
+        <p>Hello World</p>
+
+     <!--<param>-->
+     <h2>Example of Param tag</h2>
+     <object data="https://www.youtube.com/embed/JHq3pL4cdy4"></object>
+        <param name="controller" value="true"> 
+     </object>
+
+     <!--<pre>-->
+        <pre>
+           The pre
+               element preserves      spaces,
+                  line-breaks,  tabs....
+        </pre>      
+     
+     <!--<progress>-->
+        <progress></progress><br><br> 
+        <progress value="43" max="100"></progress>  
+
+     <!--<q>-->
+        <p>They said, <q> they love action movies.</q></p>   
+       
+     <!--<rp>--<rt>--<ruby>-->
+          <ruby>
+            漢 <rp>(</rp><rt>Kan</rt><rp>)</rp>
+            字 <rp>(</rp><rt>ji</rt><rp>)</rp>  
+          </ruby>
+          
+     <!--<s>-->
+        <p>Here is some <i>strikethrough </i> text.</p>  
+        
+     <!--<samp>-->
+        <p>If the browser display an error message such as "<samp>HTTP 404 - File not found</samp>" you may simply have typed the incorrect url address.</p>
+
+     <!--<section>-->
+        <section>
+            <h1>Welcome to our website</h1>
+            <p>Welcome and Thankyou for visiting our website</p>
+        </section>
+
+     <!--<small>-->
+        <p>It's <small>small</small> <small>smaller</small> <small>smallest</small></p>  
+        <p style="font-size: small;">This is a sample text</p> 
+
+     <!--<span>-->
+        <p> Here is some <span style="color: rgb(241, 21, 211);">different </span>text.</p>
+    
+     <!--<strong>-->
+        <p> <strong>Warning!</strong> This is <strong>very Dangerous</strong></p>
+        
+     <!--<style>-->
+         <h3 style="color: green;">Green Color</h3>
+         <h3 style="color: red;">Red Color</h3>
+
+     <!--<sub>-->
+        <p>Chemical formula of Water is : H<sub>2</sub>O</p>   
+        
+     <!--<sup>--> 
+        <p>Two power two: 2 <sup>2</sup></p>
+        
+     <!--<svg>-->
+        <svg width="500" height="350">
+             <rect x="100" y="100" width="300" height="150" fill="green" stroke="black" stroke-width="5"/>
+        </svg>
+
+        <svg viewBox="0 0 200 200" width="400"  height="400">
+            <circle cx="100" cy="100" fill="yellow" r="78" stroke="black" stroke-width="3" />
+            <g>
+                <circle cx="65" cy="82" r="12" />
+                <circle cx="130" cy="82" r="12" />
+            </g>
+            <path d="M65 115 a1,0.8 0 0,0 65,0" fill="none" stroke="black" stroke-width="3" />
+        </svg>
+
+     <!--<textarea>-->
+        <form>
+           <p>Leave your Comment:
+              <textarea rows="10" cols="50">Write here..</textarea>  
+           </p>
+        </form>
+        <br><br> 
+
+     <!--<tfoot>--<th>--<thead>--<tr>-->  
+        <table>
+            <thead>
+                <tr>
+                    <th>No.</th>
+                    <th>Name</th>
+                    <th>Email</th>
+                </tr>
+            </thead>
+            <tfoot>
+                <tr>
+                    <td colspan="3">Copyright 2015 Tutorial Republic</td>
+                </tr>
+            </tfoot>   
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Nikki</td>
+                    <td>nikki@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Sam</td>
+                    <td>sam@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Rupa</td>
+                    <td>rupa@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Leela</td>
+                    <td>leela@gmail.com</td>
+                </tr>
+            </tbody>
+        </table>
+ 
+     <!--<time>-->
+        <p>The Library opens at <time> 8:30 am </time>every morning.</p>  
+        
+     <!--<u>-->
+        <p>Here is some <u>Underlined text</u>.</p>
+
+     <!--<var>-->
+        <p> A simple equation: <var>x</var> = <var>y</var>+2</p>
+
+     <!--<video>-->
+        <video src="video/logo.mp4" height="250" width="250" controls autoplay loop></video>   
+
+     <!--<wbr>-->
+     <p>The XML <wbr>Http <wbr>Request object is the key to AJAX.</p>   
+       
+     
+</body>
+</html>
